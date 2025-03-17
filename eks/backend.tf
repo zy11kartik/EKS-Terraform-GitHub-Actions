@@ -8,7 +8,7 @@ terraform {
   }
   backend "s3" {
     bucket         = "lisedwon"
-    region         = "ap-south-1"
+    region         = "ap-south-2"
     key            = "eks/terraform.tfstate"
     dynamodb_table = "Lock-Files"
     encrypt        = true
